@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A backend for Exploremate",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anish_Raja",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
