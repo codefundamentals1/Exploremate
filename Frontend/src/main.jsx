@@ -16,8 +16,6 @@ import Citiescont from './components/Citiescont.jsx'
 import Newtrip from './components/Newtrip.jsx'
 
 
-const result = useRef(null);
-
 const router = createBrowserRouter(
   createRoutesFromElements(
   <Route path='/' element={<Layout />}>

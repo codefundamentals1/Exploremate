@@ -5,6 +5,8 @@ import IternaryDataContext from '../IternaryDataContext';
 function Newtrip() {
   const iternaryData = useContext(IternaryDataContext);
 
+  // iternaryData.current will have data
+
   const [place, setPlace] = useState('');
   const [startDate, setStartDate] = useState('');
   const [endDate, setEndDate] = useState('');
