@@ -2,11 +2,14 @@
 // import Headercont from './Headercont'
 import Taj from "../../images/Taj.png";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import IternaryDataContext from "../../IternaryDataContext";
 
 import axios from "axios";
 
 const Mainpage = () => {
+  const itenaryData = useContext(IternaryDataContext);
+
   const [Itearray, setItearray] = useState([]);
 
   useEffect(() => {
@@ -52,6 +55,7 @@ const Mainpage = () => {
                 Map
               </span>
             </button>
+            {JSON.stringify(itenaryData)}
           </div>
         </div>
         
@@ -74,7 +78,7 @@ const Mainpage = () => {
                 <div key={Itearrayitem.dayid} className="p-4">
                   {/* <h3>{Itearrayitem.placename}</h3>
             <h6>{Itearrayitem.nearbylocation}</h6>
-            <p>{Itearrayitem.itinerary}</p> */}
+            <p>{Itearrayitem.itinerary}</p>  */}
 
                   {/* timeline */}
 
@@ -91,9 +95,12 @@ const Mainpage = () => {
                   </span>
                   <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
                     {Itearrayitem.placename}
+                
+
                   </h3>
                   <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                     {Itearrayitem.nearbylocation}
+                    location
                   </time>
                   <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                     {Itearrayitem.itinerary}

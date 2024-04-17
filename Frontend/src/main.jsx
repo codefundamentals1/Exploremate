@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
@@ -15,6 +15,8 @@ import About from './components/About.jsx'
 import Citiescont from './components/Citiescont.jsx'
 import Newtrip from './components/Newtrip.jsx'
 
+
+const result = useRef(null);
 
 const router = createBrowserRouter(
   createRoutesFromElements(
