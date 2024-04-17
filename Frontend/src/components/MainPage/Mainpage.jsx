@@ -10,7 +10,7 @@ import axios from "axios";
 const Mainpage = () => {
   const itenaryData = useContext(IternaryDataContext);
 
-  const [Itearray, setItearray] = useState([]);
+  const [Itearray, setItearray] = useState([itenaryData]);
 
   useEffect(() => {
     axios
@@ -94,7 +94,8 @@ const Mainpage = () => {
                     </svg>
                   </span>
                   <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                    {Itearrayitem.placename}
+                    {/* {Itearrayitem.text} */}
+                    
                 
 
                   </h3>
