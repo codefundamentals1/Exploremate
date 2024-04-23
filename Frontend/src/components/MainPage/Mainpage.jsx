@@ -55,7 +55,7 @@ const Mainpage = () => {
                 Map
               </span>
             </button>
-            {JSON.stringify(itenaryData)}
+            
           </div>
         </div>
         
@@ -69,11 +69,15 @@ const Mainpage = () => {
       <>
         {/* <h1>To show jokes</h1>
         <h1>To show Itearray</h1>
-        <p>Itearray : {Itearray.length}</p> */}
+        <p>Itearray : {Itearray.length}</p> */
+        }
+
+        {JSON.stringify(itenaryData)}
 
         <div className="w-100% p-5 flex flex-row justify-center  bg-gray-200 rounded ">
           <ol className="relative border-s border-gray-200 dark:border-gray-700  ">
             <li className="mb-10 ms-6 p-4">
+
               {Itearray.map((Itearrayitem, index) => (
                 <div key={Itearrayitem.dayid} className="p-4">
                   {/* <h3>{Itearrayitem.placename}</h3>
