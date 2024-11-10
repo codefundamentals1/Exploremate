@@ -11,7 +11,7 @@ const Navbar = () => {
                 <Link to="/" className="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-tahiti-300 hover:text-slate-900 ml-20">Home</Link>
                 <Link to="/about" className="font-medium px-3 py-2 text-slate-700 rounded-lg  hover:bg-tahiti-300 hover:text-slate-900 ml-4">About</Link>
                 <Link to="/contact" className="font-medium px-3 py-2 text-slate-700 rounded-lg  hover:bg-tahiti-300 hover:text-slate-900 ml-4">Contact</Link>
-                <Link to="/" className="font-medium px-3 py-2 text-slate-700 rounded-lg  hover:bg-tahiti-300 hover:text-slate-900 ml-4">Reports</Link>
+                {/* <Link to="/" className="font-medium px-3 py-2 text-slate-700 rounded-lg  hover:bg-tahiti-300 hover:text-slate-900 ml-4">Reports</Link> */}
             </div>
             <div className="flex items-center bg-tahiti-500  ">
                 <Link to='login'>
