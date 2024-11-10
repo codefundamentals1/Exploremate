@@ -9,12 +9,11 @@ You can add in details like your budget or if you’re traveling with family.
 Based on what you enter, Travel Planner will organize a day-by-day schedule to make your trip smoother and stress-free. With helpful tips on local sights, routes, and places to eat, you can enjoy your trip without worrying about the details.
 
 
+## Deployment 
+https://exploremate-ai-itenenraryplanner.vercel.app/
 
 ## 🚀 About Me
-
-[ABOUT_ME](https://github.com/codefundamentals1#hi--im-anish-raja)
-
-
+Anish raja 
 
 
 ## Run Locally
